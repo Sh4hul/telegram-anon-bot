@@ -13,9 +13,10 @@ from telegram.ext import (
 )
 import time
 from datetime import datetime
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 # ================== CONFIG ==================
-BOT_TOKEN = "8402083339:AAHltGhWXgYd3Nk23ODAebcbMav4pnAYq_4"
 ADMIN_ID = 1970729876  # <-- your Telegram ID
 # ============================================
 
